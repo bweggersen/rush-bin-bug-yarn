@@ -1,0 +1,34 @@
+dependencies:
+  '@rush-temp/bar': 'file:projects/bar.tgz'
+  '@rush-temp/foo': 'file:projects/foo.tgz'
+  prettier: 2.0.4
+lockfileVersion: 5.1
+packages:
+  /prettier/2.0.4:
+    dev: false
+    engines:
+      node: '>=10.13.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-SVJIQ51spzFDvh4fIbCLvciiDMCrRhlN3mbZvv/+ycjvmF5E73bKdGfU8QDLNmjYJf+lsGnDBC4UUnvTe5OO0w==
+  'file:projects/bar.tgz':
+    dev: false
+    name: '@rush-temp/bar'
+    resolution:
+      integrity: sha512-evSNTOG9SD+ZHy1azRkTl7dkOxLaF9MfcA7byrsKP83lYxCX232K/7RAelyMR/KLK+CZuKK/93aPB5AIOSWoiw==
+      tarball: 'file:projects/bar.tgz'
+    version: 0.0.0
+  'file:projects/foo.tgz':
+    dependencies:
+      prettier: 2.0.4
+    dev: false
+    name: '@rush-temp/foo'
+    resolution:
+      integrity: sha512-uUFXt4R50wyDJ7FJHOHxkhI3onjtBnZA2UKPxw5P7nBgAcw1UhGDr2z6GBSAmk0/fBXeySzuiOc/9tCdn56pIQ==
+      tarball: 'file:projects/foo.tgz'
+    version: 0.0.0
+registry: ''
+specifiers:
+  '@rush-temp/bar': 'file:./projects/bar.tgz'
+  '@rush-temp/foo': 'file:./projects/foo.tgz'
+  prettier: ^2.0.0
